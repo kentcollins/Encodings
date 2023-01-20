@@ -1,0 +1,23 @@
+Ethernet encodings (Dotted quad)
+An Ethernet card is configured with an IPv4 address of 192.168.64.107.  The assigned netmask is 255.255.255.0.  What
+is the host portion of the ethernet address?
+https://www.techtarget.com/searchnetworking/tip/IP-addressing-and-subnetting-Calculate-a-subnet-mask-using-the-hosts-formula
+for some additional calculation examples
+
+Binary Coded Decimal
+How many bits are needed to represent the set of decimal numerals?
+Create a table that associates bit patterns with decimal values in a thoughtful way.
+https://www.electronics-tutorials.ws/binary/binary-coded-decimal.html
+How would your scheme need to adapt to form a Binary Coded Hex system?
+How many bytes would the value 1020 occupy in binary.  In BCD?  What does this demonstrate about the efficiency of BCD?
+
+Encoding Colors
+8-bit color https://en.wikipedia.org/wiki/8-bit_color
+16-bit/15-bit High Color
+24-bit - True Color
+
+Chess encodings
+Piece 48 is considering an attack on piece 20 -- how can I confirm they belong to different players?
+Write a boolean method that accepts a byte and determines whether the indicated piece can move diagonally.
+Write an expression that will promote a pawn to a queen.
+
