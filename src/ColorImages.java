@@ -30,7 +30,7 @@ public class ColorImages {
         for (int x = 0; x<image.getWidth(); x++) {
             for (int y = 0; y<image.getHeight(); y++) {
                 int color = image.getRGB(x, y);
-                color |= 0x0000FF00;
+                color &= 0xFFFF00FF;
                 image.setRGB(x, y, color);
             }
         }
