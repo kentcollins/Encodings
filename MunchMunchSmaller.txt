@@ -1,0 +1,58 @@
+###.###
+#a...c#
+#..b..#
+1.d.e.2
+#..f..#
+#g...h#
+###.###
+
+I've finally done it -- beaten the last level of the game in exactly
+sixteen steps.  No mean feat, as I had to control both joysticks
+simultaneously, Player 1 in my left hand and Player 2 in my right.  I've
+recorded the sequence of joystick positions as a gift for those who come
+after.  The order in which I collected the dots must be significant because
+when I entered them on the box, I heard an extended whir, followed by a
+sharp click.  I wonder what horrible secret I may have unlocked...
+
+RDDRRDDDRRDDLLLU --> path for player one 🕹️
+LDLLUULULDDLLLDD --> path for player two 🕹️
+
+65
+136
+129
+65
+66
+130
+129
+130
+65
+72
+136
+129
+17
+17
+24
+40
+
+// Processing joystick code
+// Kent Collins
+// Draw some joysticks so I don't have to worry about IP
+// These are mine. Copyright 21 Jan 23;
+
+size(800, 800);
+rectMode(CENTER);
+fill(0);
+
+// base
+rect(width/2, height-200, 460, 100, 15, 15, 15, 15);
+// first step
+rect(width/2, height-280, 160, 40, 30, 30, 30, 30);
+// second step
+rect(width/2, height-340+10, 100, 40, 30, 30, 30, 30);
+// handle
+rect(width/2, height/2-110, 60, 300, 15, 15, 15, 15);
+// button
+fill(255, 0, 0);
+rect(width/4+30, height-270, 60, 20, 15, 15, 15, 15);
+
+save("joystick.png");
