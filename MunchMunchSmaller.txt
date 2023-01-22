@@ -17,22 +17,22 @@ sharp click.  I wonder what horrible secret I may have unlocked...
 RDDRRDDDRRDDLLLU --> path for player one 🕹️
 LDLLUULULDDLLLDD --> path for player two 🕹️
 
-65
-136
-129
-65
-66
-130
-129
-130
-65
-72
-136
-129
-17
-17
-24
-40
+40	28	RL
+17	11	DD
+24	18	DL
+40	28	RL
+36	24	RU
+20	14	DU
+24	18	DL
+20	14	DU
+40	28	RL
+33	21	RD
+17	11	DD
+24	18	DL
+136	88	LL
+136	88	LL
+129	81	LD
+65	41	UD
 
 // Processing joystick code
 // Kent Collins
